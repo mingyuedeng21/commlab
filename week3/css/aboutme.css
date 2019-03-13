@@ -1,0 +1,36 @@
+body {
+  background-color: lightblue;
+  font-family: "Raleway";
+  text-align: center;
+}
+p {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+a:hover {
+  font-size: 25px;
+  color: red;
+}
+a {
+  font-size: 20px;
+  color: gray;
+}
+.aboutme {
+  width: auto;
+  height: 100px;
+  margin: 100px auto;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.box {
+  width: 50%;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+h2 {
+  text-align: left;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Exercise</title>
+  <link rel="stylesheet" href="css/exercise.css">
+</head>
+
+<body>
+
+  <button onclick="changeImage()">Walk</button>
+  <div class="flex-container">
+    <div id="box1">
+        <img src="images/walking0.jpg"></div>
+    <div id="box2">
+        <img src="images/walking1.jpg"></div>
+    <div id="box3">
+        <img src="images/walking2.jpg"></div>
+  </div>
+  <script src="js/exercise.js" type="text/javascript">
+  document.getElementById("box1").style.opacity = 0;
+  document.getElementById("box2").style.opacity = 1;
+  document.getElementById("box3").style.opacity = 0;
+  </script>
+</body>
+</html>

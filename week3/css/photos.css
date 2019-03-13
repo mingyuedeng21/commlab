@@ -1,0 +1,40 @@
+body {
+  background-color: lightblue;
+  font-family: "Raleway";
+  text-align: center;
+}
+a:hover {
+  font-size: 25px;
+  color: red;
+}
+a {
+  font-size: 20px;
+  color: gray;
+}
+.myfamily {
+  width: 50%;
+  height: 100px;
+  margin: 0 auto;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+img {
+  width: auto;
+}
+p a {
+  text-decoration: none;
+}
+.box4 {
+  width: 50%;
+  height: 100px;
+  margin: 0 auto;
+  font-size: 30px;
+  text-align: left;
+  align-items: center;
+}
+h3 {
+  font-size: 30px;
+  text-align: left;
+  font-family: "Raleway";
+}

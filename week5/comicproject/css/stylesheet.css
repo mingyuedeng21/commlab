@@ -1,0 +1,55 @@
+body {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-family: "Petit Formal Script", cursive;
+}
+
+.container1 {
+  height: 50%;
+  width: 50%;
+  text-align: center;
+  font-family: "Petit Formal Script", cursive;
+  flex-direction: column;
+}
+
+h1, h2 {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-family: "Petit Formal Script", cursive;
+}
+
+.container2 {
+    height: 50% auto;
+    width: 50% auto;
+    display: block
+    border: none;
+    flex-direction: column;
+}
+
+.container2 img {
+  position: absolute;
+  top: 50% auto;
+  left: 50% auto;
+  transform: translate(-25%, -25%);
+  -ms-transform: translate(-25%, -25%);
+  width: 50%;
+  height: 75%;
+}
+
+
+.container2 .btn {
+  position: absolute;
+  top: 50% auto;
+  left: 50% auto;
+  transform: translate(-25%, -25%);
+  -ms-transform: translate(-25%, -25%);
+  background-color: transparent;
+  color: black;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
